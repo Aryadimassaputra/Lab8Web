@@ -1,0 +1,23 @@
+* { margin: 0; padding: 0; }
+body { font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+.container { margin: 10px 15px; }
+.container h1 { font-size: 32px; border-bottom: 1px solid #e5e5e5; padding-bottom: 4px; margin-bottom: 20px; }
+.main { padding: 5px 0; }
+.main a { color: #00f; }
+.main p { margin-bottom: 20px; }
+
+table { border-collapse: collapse; border: 1px solid #ddd; }
+th, td { border: 1px solid #ddd; padding: 4px 4px; text-align: left; }
+th { text-align: center; }
+td img { max-width: 100px; height: auto; }
+
+.input { margin-bottom: 10px; display: flex; align-items: center; }
+.input label { width: 150px; }
+.input input[type="text"], .input select {
+    padding: 4px; border: 1px solid #ccc; border-radius: 3px; width: 150px;
+}
+.submit { margin-left: 150px; }
+.submit input {
+    background: #00f; color: #fff; border: none;
+    padding: 5px 8px; border-radius: 4px; cursor: pointer;
+}
